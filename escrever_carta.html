@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Escrever Carta</title>
+</head>
+<body>
+    <h1>Escrever Carta</h1>
+    <form method="post" action="/escrever_carta">
+        <label for="data">Data:</label>
+        <input type="text" id="data" name="data" required><br><br>
+
+        <label for="destinatario">Destinatário:</label>
+        <input type="text" id="destinatario" name="destinatario" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="remetente">Remetente:</label>
+        <input type="text" id="remetente" name="remetente" required><br><br>
+
+        <input type="submit" value="Gerar Carta">
+    </form>
+</body>
+</html>
